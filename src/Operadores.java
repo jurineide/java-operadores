@@ -23,9 +23,20 @@ public class Operadores {
         int numero=5;
         numero= - numero;
         System.out.println(numero);
-        
+
         numero = numero * -1;
         System.out.println(numero);
+
+        //incrementar numeros
+        numero = numero + 1; // ou numero++
+        System.out.println(numero); // ou
+        System.out.println(++numero);
+
+        numero--;
+        System.out.println(numero);
+
+        boolean variavel= true;
+         System.out.println(!variavel);
 
 
     }
