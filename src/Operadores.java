@@ -19,9 +19,12 @@ public class Operadores {
 
         System.out.println(valor);
 
-        // transformar um numero em negativo
+        // transformar um numero em negativo/ para tornar positivo usa numero * -1
         int numero=5;
         numero= - numero;
+        System.out.println(numero);
+        
+        numero = numero * -1;
         System.out.println(numero);
 
 
